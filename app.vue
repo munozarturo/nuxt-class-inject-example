@@ -25,6 +25,8 @@
 <script setup lang="ts">
 const { $classInject } = useNuxtApp();
 
+useHead({ title: "nuxt-class-inject" });
+
 const themes: string[] = ["light", "dark", "paper"];
 const setTheme = (theme: string) => {
     const current: string[] = $classInject.classList.value;
