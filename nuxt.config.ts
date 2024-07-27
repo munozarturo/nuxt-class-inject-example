@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: ["../my-module/src/module"],
+    modules: ["nuxt-class-inject"],
     classInject: {
         storageKey: "nuxt-class-inject",
         globalName: "__NUXT_CLASS_INJECT__",
