@@ -1,13 +1,15 @@
 <template>
     <div class="container">
         <h1 class="title">nuxt-class-inject-example</h1>
-        <h2 class="subtitle">
-            {{ `
-            <html class="${$classInject.classList.value}">
-                ...
-            </html>
-            ` }}
-        </h2>
+        <ClientOnly>
+            <h2 class="subtitle">
+                {{ `
+                <html class="${$classInject.classList.value}">
+                    ...
+                </html>
+                ` }}
+            </h2>
+        </ClientOnly>
         <div class="button-container">
             <button
                 v-for="theme in themes"
