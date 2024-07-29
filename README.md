@@ -24,6 +24,6 @@ npm run dev
 <!-- omit from toc -->
 ## Links
 
-* [Live Demo + Docs](https://nuxt-class-inject.munozarturo.com)
+* [`nuxt-class-inject` Live Demo + Docs](https://nuxt-class-inject.munozarturo.com)
 * [`nuxt-class-inject` GitHub Repo](https://github.com/munozarturo/nuxt-class-inject)
-* [Nuxt3 Pure CSS Example App](https://github.com/munozarturo/nuxt-class-inject-example)
+* [`nuxt-class-inject` Tailwind CSS Example](https://github.com/munozarturo/nuxt-class-inject-example)
